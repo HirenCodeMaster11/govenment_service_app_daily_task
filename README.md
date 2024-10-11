@@ -4,13 +4,16 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+<h2 align="center">1. Connectivity plus package </h2>
 
-A few resources to get you started if this is your first Flutter project:
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/9ba8f094-e2c4-4966-a345-f4bd9cc6a2d3" type="video/mp4"> 
+</video>
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<h2 align="center">1. Connectivity plus package work images </h2>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/933662ce-2903-4906-a500-e3d42d6fae3e" />
+  <img height="550"  src="https://github.com/user-attachments/assets/1fab781d-8867-466c-aeeb-f978a0818522" />
+</div>

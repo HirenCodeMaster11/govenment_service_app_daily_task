@@ -1,14 +1,10 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
+import 'package:govenment_service_app_daily_task/View/Web%20Screen/webScreen.dart';
 
-class Connectivity1 extends StatefulWidget {
+class Connectivity1 extends StatelessWidget {
   const Connectivity1({super.key});
 
-  @override
-  State<Connectivity1> createState() => _Connectivity1State();
-}
-
-class _Connectivity1State extends State<Connectivity1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,23 +14,7 @@ class _Connectivity1State extends State<Connectivity1> {
         builder: (context, snapshot) {
           if (snapshot.data!.contains(ConnectivityResult.mobile) ||
               snapshot.data!.contains(ConnectivityResult.wifi)) {
-            return Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                SizedBox(
-                  height: 300,
-                  child: Center(child: Image.asset('assets/on.webp')),
-                ),
-                const Text(
-                  'Welcome back! Now your internet is working perfectly',
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ],
-            );
+            return WebScreen();
           } else if (snapshot.data!.contains(ConnectivityResult.vpn)) {
             return const Center(
               child: Text("It seems you're connected to VPN"),

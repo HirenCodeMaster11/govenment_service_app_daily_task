@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:govenment_service_app_daily_task/Google%20engine%20view/home/home.dart';
 import 'package:govenment_service_app_daily_task/View/Web%20View%20Page/webView.dart';
 
 import 'View/connectivity_plus/connectivity.dart';
@@ -15,8 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context) => Connectivity1(),
-        '/web' : (context) => WebViewPage(),
+        // '/' : (context) => Connectivity1(),
+        // '/web' : (context) => WebViewPage(),
+        '/' : (context) => HomePage(),
       },
     );
   }
